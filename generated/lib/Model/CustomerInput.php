@@ -5,7 +5,7 @@
  * PHP version 8.1
  *
  * @category Class
- * @package  AureEx\Generated
+ * @package  AureExGenerated
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace AureEx\Generated\Model;
+namespace AureExGenerated\Model;
 
 use \ArrayAccess;
-use \AureEx\Generated\ObjectSerializer;
+use \AureExGenerated\ObjectSerializer;
 
 /**
  * CustomerInput Class Doc Comment
  *
  * @category Class
- * @package  AureEx\Generated
+ * @package  AureExGenerated
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<string, mixed>
@@ -59,7 +59,7 @@ class CustomerInput implements ModelInterface, ArrayAccess, \JsonSerializable
     protected static $openAPITypes = [
         'name' => 'string',
         'email' => 'string',
-        'document' => '\AureEx\Generated\Model\CustomerInputDocument'
+        'document' => '\AureExGenerated\Model\CustomerInputDocument'
     ];
 
     /**
@@ -360,7 +360,7 @@ class CustomerInput implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets document
      *
-     * @return \AureEx\Generated\Model\CustomerInputDocument|null
+     * @return \AureExGenerated\Model\CustomerInputDocument|null
      */
     public function getDocument()
     {
@@ -370,7 +370,7 @@ class CustomerInput implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets document
      *
-     * @param \AureEx\Generated\Model\CustomerInputDocument|null $document document
+     * @param \AureExGenerated\Model\CustomerInputDocument|null $document document
      *
      * @return self
      */

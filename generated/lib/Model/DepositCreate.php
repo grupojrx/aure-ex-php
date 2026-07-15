@@ -5,7 +5,7 @@
  * PHP version 8.1
  *
  * @category Class
- * @package  AureEx\Generated
+ * @package  AureExGenerated
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace AureEx\Generated\Model;
+namespace AureExGenerated\Model;
 
 use \ArrayAccess;
-use \AureEx\Generated\ObjectSerializer;
+use \AureExGenerated\ObjectSerializer;
 
 /**
  * DepositCreate Class Doc Comment
  *
  * @category Class
- * @package  AureEx\Generated
+ * @package  AureExGenerated
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<string, mixed>
@@ -62,7 +62,7 @@ class DepositCreate implements ModelInterface, ArrayAccess, \JsonSerializable
         'network' => 'string',
         'reference' => 'string',
         'callbackUrl' => 'string',
-        'customer' => '\AureEx\Generated\Model\CustomerInput',
+        'customer' => '\AureExGenerated\Model\CustomerInput',
         'metadata' => 'array<string,mixed>',
         'splits' => 'array<string,mixed>[]'
     ];
@@ -514,7 +514,7 @@ class DepositCreate implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets customer
      *
-     * @return \AureEx\Generated\Model\CustomerInput|null
+     * @return \AureExGenerated\Model\CustomerInput|null
      */
     public function getCustomer()
     {
@@ -524,7 +524,7 @@ class DepositCreate implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets customer
      *
-     * @param \AureEx\Generated\Model\CustomerInput|null $customer customer
+     * @param \AureExGenerated\Model\CustomerInput|null $customer customer
      *
      * @return self
      */

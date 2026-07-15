@@ -5,7 +5,7 @@
  * PHP version 8.1
  *
  * @category Class
- * @package  AureEx\Generated\Model
+ * @package  AureExGenerated\Model
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,12 +26,12 @@
  * Do not edit the class manually.
  */
 
-namespace AureEx\Generated\Model;
+namespace AureExGenerated\Model;
 
 /**
  * Interface abstracting model access.
  *
- * @package AureEx\Generated\Model
+ * @package AureExGenerated\Model
  * @author  OpenAPI Generator team
  */
 interface ModelInterface
