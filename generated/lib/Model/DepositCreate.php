@@ -478,7 +478,7 @@ class DepositCreate implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets network
      *
-     * @param string|null $network Rede USDT. `matic` é aceito como alias de `pol`. ETH, BSC e POL usam o mesmo endereço.
+     * @param string|null $network Rede USDT. `matic` é aceito como alias de `pol`. ETH, BSC e POL usam o mesmo endereço; envio por outra dessas três redes é creditado e o `network` do depósito passa a ser a rede real.
      *
      * @return self
      */
