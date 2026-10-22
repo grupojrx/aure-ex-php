@@ -515,7 +515,7 @@ class DepositCreate implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets expiration
      *
-     * @param \DateTime|null $expiration Expiração do depósito (ISO 8601). Aceita de 10 minutos a 24 horas a partir da criação; valores fora da faixa são ajustados. Sem o campo, expira em 48 horas.
+     * @param \DateTime|null $expiration Expiração do depósito (ISO 8601). Aceita de 10 minutos a 24 horas a partir da criação; valores fora da faixa são ajustados. Sem o campo, expira em 24 horas.
      *
      * @return self
      */
